@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.contenedor{
+    background-color: black;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+}
+.encabezado2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.encabezado3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+}
+h2{
+    font-size: 13px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    background-color: grey;
+    height: 40px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}   
+body{
+    margin: 0;
+}
+.pantalla, .logocss, .diamante{
+    font-size: 200px;
+}
+.figura1,.figura2,.figura3{
+    font-size: 200px;
+}
+.contenedor2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+    min-height: 30vh;
+
+}
+.contenedor-pantalla{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center; 
+    height: 500px;
+    width: 400px;
+    border: 3px solid gray;
+}
+.contenedor-css{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    border: 3px solid gray;
+}
+.contenedor-diamante{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    border: 3px solid gray;
+}
+.lorem-container{
+    display:block;
+ }
+
+
+
+@media screen and (max-width: 480px) {
+    .contenedor2{
+        flex-direction: column;
+    }
+  
+
+}
+@media screen and (min-width: 900px) {
+    .contenedor2{
+        width: max-content;
+    }
+}
+    
+    
